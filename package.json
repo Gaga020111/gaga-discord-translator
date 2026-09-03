@@ -1,0 +1,22 @@
+{
+  "name": "gaga-discord-translator",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Free-quota Oracle Cloud and Groq English to Traditional Chinese Discord voice subtitle bot",
+  "main": "src/bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/bot.js",
+    "check": "node --check src/bot.js && node --check src/cloud-translation.js && node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "@discordjs/voice": "0.19.2",
+    "discord.js": "14.27.0",
+    "dotenv": "17.4.2",
+    "opusscript": "0.0.8",
+    "prism-media": "1.3.5"
+  }
+}
