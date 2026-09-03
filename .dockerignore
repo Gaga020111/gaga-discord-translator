@@ -1,0 +1,10 @@
+.env
+.git
+.gitignore
+.venv
+.models
+node_modules
+test
+*.log
+*.zip
+__pycache__
